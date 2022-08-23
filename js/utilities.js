@@ -39,9 +39,7 @@ function playerCostTotalById() {
     }
 
     let parentsList = document.querySelectorAll(".item");
-
     let parentsLength = parentsList.length;
-
     const totalPlayerCost = (parentsLength) * playerPriceValue;
 
 
